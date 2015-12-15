@@ -10,4 +10,5 @@
 	box-sizing: border-box;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	height: 100%;
 }

@@ -6,11 +6,15 @@
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
   width: 100%;
+  margin-right: 10px;
 }
 .boton:hover{
   background-color: #e49100;
   border-bottom: 0 none;
   border-top: 6px solid #ffb400;
+}
+.boton:last-of-type{
+  margin-right: 0;
 }
 .boton_a {
   font-weight: 400;

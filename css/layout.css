@@ -1,22 +1,23 @@
 /*Layout partes que se repiten contastenmente */
 header, footer{
-	position: absolute;
-	width: 100%;
-	background-color: #282828;
+  background-color: #282828;
+  position: fixed;
+  padding: 20px 0;
+  box-sizing: border-box;
+  width: 100%;
+  color: #c3c1c1;
+  font-weight: 400;
+}
+.layout_a{
+  color: #c3c1c1;
+}
+header{
+  top: 0;
+}
+footer{
+  bottom: 0;
 }
 header img {
 	width: 250px;
 	display: block;
-}
-nav ul li{
-	color: #fff;
-	display: inline;
-	font-weight: 400;
-}
-footer {
-	padding: 20px 0;
-	box-sizing: border-box;
-}
-footer, footer a {
-	color: #fff;
 }
