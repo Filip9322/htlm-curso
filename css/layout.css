@@ -1,0 +1,22 @@
+/*Layout partes que se repiten contastenmente */
+header, footer{
+	position: absolute;
+	width: 100%;
+	background-color: #282828;
+}
+header img {
+	width: 250px;
+	display: block;
+}
+nav ul li{
+	color: #fff;
+	display: inline;
+	font-weight: 400;
+}
+footer {
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+footer, footer a {
+	color: #fff;
+}
